@@ -1,0 +1,126 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 100vh;
+  max-height: 100%;
+  margin: 60px auto;
+  padding: 20px 40px;
+  max-width: 600px;
+  font-size: 20px;
+  background-image: linear-gradient(180deg, rgb(39, 155, 218),rgb(178, 232, 249));
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.bara {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px auto;
+  max-width: 350px;
+}
+
+@media (max-width: 300px) {
+  .bara {
+    display: block;
+  }
+  ::placeholder {
+    text-align: center;
+  }
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.item {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: rgb(39, 155, 218);
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 0.05px rgb(48, 48, 141);
+  }
+
+.produs {
+  margin-left: 5px;
+  overflow: hidden;
+}
+
+.toggle:hover, .toggle:focus {
+  box-shadow: 0px 0px 12px 0.02px rgb(48, 48, 141);
+}
+
+/*input:checked + label {
+  text-decoration: line-through;
+  background-image: linear-gradient(90deg, rgb(184, 77, 77), rgb(39, 155, 218));
+  border-radius: 5px;
+}*/
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 5px 10px;
+}
+
+.footer {
+  margin: 5px auto;
+}
+
+#footer {
+  font-size: 10px;
+  opacity: 80%;
+}
+
+#btn {
+  background: rgb(39, 155, 218);
+  border: 0;
+  box-shadow: 2px 2px 5px 0.05px rgb(48, 48, 141);
+  border-radius: 5px;
+  padding: 4px 10px;
+  transition: 0.3s;
+}
+
+.delete {
+  background: rgb(92, 192, 245);
+  border: 4px solid rgb(161, 78, 89);
+  margin-left: 10px;
+  box-shadow: 2px 2px 5px 0.05px rgb(48, 48, 141);
+  border-radius: 5px;
+  padding: 2px 6px;
+  transition: 0.3s;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 60%;
+  transform: scale(0.8);
+}
+
+button:active {
+  transform: scale(1);
+  opacity: 100%;
+}
+
+
+
+
+  
