@@ -20,15 +20,16 @@ h1 {
 .bara {
   display: flex;
   flex-direction: row-reverse;
+flex-wrap: nowrap;
   align-items: center;
   justify-content: space-evenly;
   margin: 10px auto;
   max-width: 350px;
 }
 
-@media (max-width: 300px) {
+@media (max-width: 400px) {
   .bara {
-    display: block;
+    display: grid;
   }
   ::placeholder {
     text-align: center;
